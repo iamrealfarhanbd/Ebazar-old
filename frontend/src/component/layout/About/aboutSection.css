@@ -60,7 +60,7 @@
   margin: 1vmax 0;
 }
 
-.aboutSectionContainer > div > div > span {
+.aboutSectionContainer .about-project{
   font: 100 1vmax "Roboto";
   color: rgba(0, 0, 0, 0.616);
   text-align: center;

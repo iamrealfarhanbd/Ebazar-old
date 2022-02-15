@@ -1,13 +1,15 @@
 .contactContainer {
-  height: 100vh;
-  width: 100vw;
-  max-width: 100%;
-  display: grid;
-  place-items: center;
+  display: flex;
+  flex-direction: column;
   background-color: white;
-  position: fixed;
+  align-content: center;
+  align-items: center;
+  padding-top: 220px;
 }
-
+.contactContainer h1{
+  font: 600 50px "Roboto";
+  color: #0C0F39;
+}
 .mailBtn {
   text-decoration: none;
   transform: translateX(-100vw);
@@ -16,9 +18,10 @@
 
 .mailBtn > button {
   text-decoration: none;
-  font: 200 2vmax "Roboto";
+  font: 200 40px "Roboto";
   cursor: url("https://img.icons8.com/color/48/000000/edit--v2.png"), pointer;
-  padding: 2vmax;
+  padding: 40px;
+  color: #FF7E36;
 }
 
 @keyframes mailBtnAnimation {
